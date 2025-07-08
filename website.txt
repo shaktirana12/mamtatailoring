@@ -1,0 +1,76 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mamta Tailoring</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header { background: #d63384; color: white; padding: 20px; text-align: center; }
+    nav { background: #f8f9fa; padding: 10px; text-align: center; }
+    nav a { margin: 0 15px; text-decoration: none; color: #333; font-weight: bold; }
+    section { padding: 20px; }
+    .gallery img { width: 200px; height: auto; margin: 10px; border-radius: 10px; }
+    .like-btn { color: #d63384; cursor: pointer; }
+    .comment-box { width: 100%; padding: 10px; margin-top: 10px; }
+    form input, form textarea { width: 100%; padding: 10px; margin-bottom: 10px; }
+    form button { padding: 10px 20px; background: #d63384; color: white; border: none; cursor: pointer; }
+    footer { background: #333; color: white; text-align: center; padding: 20px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Mamta Tailoring</h1>
+    <p>Your Style, Our Stitch!</p>
+  </header>  <nav>
+    <a href="#gallery">Gallery</a>
+    <a href="#order">Order</a>
+    <a href="#contact">Contact</a>
+    <a href="#map">Location</a>
+    <a href="#appointment">Appointment</a>
+    <a href="#testimonials">Testimonials</a>
+  </nav>  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="https://via.placeholder.com/200x250?text=Dress+1" alt="Dress 1" />
+      <img src="https://via.placeholder.com/200x250?text=Dress+2" alt="Dress 2" />
+    </div>
+    <i class="fas fa-heart like-btn"> Like</i>
+    <textarea class="comment-box" placeholder="Leave a comment..."></textarea>
+  </section>  <section id="order">
+    <h2>Place Your Order</h2>
+    <form>
+      <input type="text" placeholder="Name" required />
+      <input type="email" placeholder="Email" required />
+      <textarea placeholder="Order Details" required></textarea>
+      <button type="submit">Submit Order</button>
+    </form>
+  </section>  <section id="contact">
+    <h2>Contact Us</h2>
+    <p><i class="fab fa-whatsapp"></i> <a href="https://wa.me/919000000000">Chat on WhatsApp</a></p>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>  <section id="map">
+    <h2>Our Location</h2>
+    <iframe src="https://maps.google.com/maps?q=delhi&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="300" frameborder="0" style="border:0"></iframe>
+  </section>  <section id="appointment">
+    <h2>Book an Appointment</h2>
+    <form>
+      <input type="text" placeholder="Name" required />
+      <input type="date" required />
+      <input type="time" required />
+      <button type="submit">Book Now</button>
+    </form>
+  </section>  <section id="testimonials">
+    <h2>What Our Customers Say</h2>
+    <p>⭐ "Great stitching quality and perfect fitting!" - Reena</p>
+    <p>⭐ "Affordable and on-time delivery." - Sunita</p>
+  </section>  <footer>
+    <p>&copy; 2025 MamtaTailoring.com</p>
+  </footer>
+</body>
+</html>
